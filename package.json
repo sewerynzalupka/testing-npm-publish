@@ -1,11 +1,14 @@
 {
   "name": "@sewerynzalupka/testing-npm-publish",
   "version": "0.0.0",
-  "description": "",
+  "description": "Testing npm publish",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test specified\""
   },
-  "author": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Seweryn Załupka <s.zalupka@nomtek.com>",
   "license": "ISC"
 }
